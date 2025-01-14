@@ -78,3 +78,39 @@ button {
   margin-top: 8px;
   cursor: pointer;
 }
+
+#second {
+  background-color: #333333;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  padding: 25px 0 40px 0;
+  font-size: 40px;
+  color: #FAFAD2;
+  text-transform: uppercase;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 15px; 
+  justify-items: center; 
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.img-box {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border: 3px solid #D3D3D3;
+}
+
+.eucharist-point {
+  width: 200px;
+  text-align: center;
+  color: #D3D3D3 ;
+}
