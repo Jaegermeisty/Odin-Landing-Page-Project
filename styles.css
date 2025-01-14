@@ -30,3 +30,51 @@ nav a:hover {
   color: #F5F5F5;  
   text-decoration: underline;
 }
+
+#first {
+  background-color: #F5F5DC;
+  display: flex;
+  padding: 60px 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  color: #333333;
+  margin: 0;
+  font-size: 50px;
+  width: 350px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.bold {
+  color: #008080;
+  text-decoration: underline;
+}
+
+.intro-text {
+  width: 450px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #666666;
+}
+
+.front-page-img {
+  width: 550px;
+  height: 350px;
+  object-fit: cover;
+  border: 3px solid #333333;
+}
+
+button {
+  background-color: #004D40; 
+  color: #FFFFFF;
+  border: none;
+  font-family: "EB Garamond", serif;
+  font-size: 16px;
+  padding: 12px 18px;
+  border-radius: 5px;
+  margin-top: 8px;
+  cursor: pointer;
+}
