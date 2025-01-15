@@ -21,7 +21,7 @@ The project aims to closely match a provided design image and colors but does **
 
 ## Screenshot
 
-![Screenshot of the Project](images/Screenshot 2025-01-15 at 13.32.39.png)
+![Screenshot of the Project](images/screenshot.png)
 
 
 ## Technologies Used
