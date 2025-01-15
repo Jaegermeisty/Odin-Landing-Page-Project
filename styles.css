@@ -68,7 +68,7 @@ h1 {
   border: 3px solid #333333;
 }
 
-button {
+.button-front {
   background-color: #004D40; 
   color: #FFFFFF;
   border: none;
@@ -159,4 +159,15 @@ hr {
   font-weight: 600;
   font-size: 28px;
   margin: 0 0 60px 0;
+}
+
+#fourth {
+  background-color: #F5F5DC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-content {
+  background-color: #004D40;
 }
