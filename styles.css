@@ -70,13 +70,16 @@ h1 {
 
 .button-front {
   background-color: #004D40; 
-  color: #FFFFFF;
   border: none;
-  font-family: "EB Garamond", serif;
   font-size: 16px;
   padding: 12px 18px;
   border-radius: 5px;
   margin-top: 8px;
+}
+
+button {
+  color: white;
+  font-family: "EB Garamond", serif;
   cursor: pointer;
 }
 
@@ -166,8 +169,42 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
+}
+
+.feature-box {
+  background-color: #004D40;
+  margin: 60px auto;
 }
 
 .feature-content {
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+  align-items: center;
+}
+
+.feature-title, .feature-desc {
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.feature-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.feature-desc {
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 80%;
+}
+
+.feature-button {
   background-color: #004D40;
+  border: 1px solid white;
+  padding: 8px 20px;
 }
