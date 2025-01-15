@@ -130,3 +130,33 @@ hr {
   font-weight: 500;
   text-decoration: underline;
 }
+
+#third {
+  background-color: #8B0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-div {
+  width: 700px;
+}
+
+.quote, .quote-author {
+  color: #D3D3D3;
+}
+
+.quote {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  margin: 60px 0 0 0;
+}
+
+.quote-author {
+  text-align: end;
+  font-weight: 600;
+  font-size: 28px;
+  margin: 0 0 60px 0;
+}
