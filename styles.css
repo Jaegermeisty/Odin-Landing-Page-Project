@@ -46,6 +46,7 @@ h1 {
   width: 350px;
   letter-spacing: 1px;
   font-weight: 500;
+  font-family: "Merriweather", serif;
 }
 
 .bold {
@@ -86,10 +87,19 @@ button {
 h2 {
   margin: 0;
   text-align: center;
-  padding: 25px 0 40px 0;
+  padding: 25px 0 10px 0;
   font-size: 40px;
   color: #FAFAD2;
-  text-transform: uppercase;
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+}
+
+hr {
+  margin: auto;
+  width: 150px;
+  text-align: center;
+  margin-bottom: 35px;
+  border: 1px solid #FAFAD2;
 }
 
 .grid-container {
