@@ -125,7 +125,7 @@ hr {
 .eucharist-point {
   width: 200px;
   text-align: center;
-  color: #D3D3D3 ;
+  color: #D3D3D3;
 }
 
 .bold-white {
@@ -174,7 +174,7 @@ hr {
 
 .feature-box {
   background-color: #004D40;
-  margin: 60px auto;
+  margin: 80px auto;
 }
 
 .feature-content {
@@ -207,4 +207,16 @@ hr {
   background-color: #004D40;
   border: 1px solid white;
   padding: 8px 20px;
+}
+
+footer {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  color: #D3D3D3;
+  margin: 30px auto;
 }
